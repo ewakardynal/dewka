@@ -14,19 +14,22 @@
     <meta property="og:url" content="https://ewakardynal.pl"/>
     <meta property="og:title" content="Ewa Kardynał"/>
     <meta property="og:type" content="text.html" />
-	<meta property="og:image" content="img/share.jpg?v=1.0.0"/>
-	<meta property="og:image:width" content="1200"/>
-	<meta property="og:image:height" content="628"/>
-	<meta property="og:description" content=""/>
-	
-	<meta name="DC.Title" content="Ewa Kardynał"/>
-	<meta name="DC.Subject" content=""/>
-	<meta name="DC.Description" content=""/>
-	<meta name="DC.Publisher" content="Ewa Kardynał"/>
-	<meta name="DC.Rights" content="Allrights reserved."/>
-	<meta name="dc.language" content="pl">
+    <meta property="og:image" content="img/share.jpg?v=1.0.0"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="628"/>
+    <meta property="og:description" content=""/>
+
+    <meta name="DC.Title" content="Ewa Kardynał"/>
+    <meta name="DC.Subject" content=""/>
+    <meta name="DC.Description" content=""/>
+    <meta name="DC.Publisher" content="Ewa Kardynał"/>
+    <meta name="DC.Rights" content="Allrights reserved."/>
+    <meta name="dc.language" content="pl">
 
     <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- BOOTSTRAP CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -37,42 +40,42 @@
 <body>
     <main>
         <section class="about">
-            <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark about__nav">
                 <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="img/dewka-logo.png" alt="DEWKA" class="d-inline-block align-text-center">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">O mnie</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Umiejętności</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projekty</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Doświadczenie</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Kontakt</a>
-                    </li>
-                    </ul>
-                </div>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/dewka-logo.png" alt="DEWKA" class="d-inline-block align-text-center">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">O mnie</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Umiejętności</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Projekty</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Doświadczenie</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Kontakt</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <p>Cześć!</p>
+                    <div class="col-md-6 mt-5">
+                        <p class="fw-bold">Cześć!</p>
                         <h1 class="about__title">Nazywam się Ewa <span class="about__name">Kardynał</span></h1>
-                        <p>Jestem junior front-end developerem. Posiadam podstawowe doświadczenie w tworzeniu stron internetowych. Aktualnie poszukuje pracy, w której będę mogła poszerzać zdobytą już wiedzę i rozwijać swoje umiejętności.</p>
-                        <a href="" class="btn">Pobierz CV</a>
+                        <p class="py-3">Jestem junior front-end developerem. Posiadam podstawowe doświadczenie w tworzeniu stron internetowych. Aktualnie poszukuje pracy, w której będę mogła poszerzać zdobytą już wiedzę i rozwijać swoje umiejętności.</p>
+                        <a href="" class="btn btn-primary btn-lg">Pobierz CV</a>
                     </div>
                     <div class="col-md-6"></div>
                 </div>
@@ -81,8 +84,8 @@
         <section class="skills">
             <div class="container">
                 <div class="row">
-                    <h2 class="section__title">Moje <span>umiejętności</span></h2>
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 g-4">
+                    <h2 class="section__title">Moje <span class="text-primary-m">umiejętności</span></h2>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-xl-6 g-4">
                         <div class="col">
                         <div class="card h-100">
                             <img src="img/html.png" class="card-img-top" alt="HTML">
@@ -138,14 +141,14 @@
         <section class="projects">
             <div class="container">
                 <div class="row">
-                    <h2 class="section__title">Przykładowe <span>projekty</span></h2>
+                    <h2 class="section__title">Przykładowe <span class="text-primary-m">projekty</span></h2>
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
                         <div class="col">
                             <div class="card h-100">
                                 <img src="img/page-ek.png" class="card-img-top" alt="ewakardynal.pl">
                                 <div class="card-body">
                                 <h5 class="card-title"><a href="">ewakardynal.pl</a></h5>
-                                <p class="card-text">Strona portfolio. Projekt graficzny stroy wykonamy w Figma.</p>
+                                <p class="card-text">Strona portfolio. Projekt graficzny strony wykonamy w Figma.</p>
                                 <a href="#" class="btn btn-primary">Zobacz więcej</a>
                                 </div>
                             </div>
@@ -177,7 +180,7 @@
         <section class="experience">
             <div class="container">
                 <div class="row">
-                    <h2 class="section__title">Moje <span>doświadczenie</span></h2>
+                    <h2 class="section__title">Moje <span class="text-primary-m">doświadczenie</span></h2>
                     <div class="col-12 col-md-6 offset-md-3">
                         <ul class="experience__list">
                             <li>
@@ -218,8 +221,8 @@
         <section class="contact">
             <div class="container">
                 <div class="row">
-                    <h2 class="section__title"><span>Kontakt</span></h2>
-                    <h3>Wybierz sposób kontaktu</h3>
+                    <h2 class="section__title pb-0"><span class="text-primary-m">Kontakt</span></h2>
+                    <h3 class="text-center pb-5">Wybierz sposób kontaktu</h3>
                     <div class="col-md-4"><a href="mailto:kontakt@ewakardynal.pl"><img src="img/email.png" alt="" width="20px" height="20px"> E-mail</a></div>
                     <div class="col-md-4"><a href="tel:+48500651977"><img src="img/phone-call.png" alt="" width="20px" height="20px">500 651 977</a></div>
                     <div class="col-md-4">kontakt@ewakardynal.pl</div>
@@ -229,10 +232,10 @@
     </main>
     <footer class="page-footer">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-4"><img src="img/dewka-logo.png" alt="DEWKA"></div>
-                <div class="col-md-4"><p>Polityka prywatności © 2022 All rights reserved.</p></div>
-                <div class="col-md-4"><p>Made with <img src="img/heart.png" alt="love" width="20px" height="20px"> by <a href="">Ewa Kardynał <img src="img/github.png" alt="github" width="40px" height="40px"></a></p></div>
+                <div class="col-md-4">© 2022 All rights reserved.</div>
+                <div class="col-md-4">Made with <img src="img/heart.png" alt="love" width="20px" height="20px"> by Ewa Kardynał <a href="" class="ps-2"><img src="img/github-dewka.png" alt="github" width="40px" height="40px"></a></div>
             </div>
         </div>
     </footer>
