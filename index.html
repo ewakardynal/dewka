@@ -39,10 +39,10 @@
 </head>
 <body>
     <main>
-        <section class="about">
+        <section class="about" id="about">
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark about__nav">
                 <div class="container">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="#about">
                         <img src="img/dewka-logo.png" alt="DEWKA" class="d-inline-block align-text-center">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,19 +51,19 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">O mnie</a>
+                                <a class="nav-link active" aria-current="page" href="#about">O mnie</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Umiejętności</a>
+                                <a class="nav-link" href="#skills">Umiejętności</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Projekty</a>
+                                <a class="nav-link" href="#projects">Projekty</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Doświadczenie</a>
+                                <a class="nav-link" href="#experience">Doświadczenie</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Kontakt</a>
+                                <a class="nav-link" href="#contact">Kontakt</a>
                             </li>
                         </ul>
                     </div>
@@ -76,8 +76,8 @@
                         <h1 class="about__title">Nazywam się Ewa <span class="about__name">Kardynał</span></h1>
                         <p class="py-3">Jestem junior front-end developerem. Posiadam podstawowe doświadczenie w tworzeniu stron internetowych. Aktualnie poszukuje pracy, w której będę mogła poszerzać zdobytą już wiedzę i rozwijać swoje umiejętności.</p>
                         <div class="row">
-                            <div class="col-md-6">
-                                <a href="" class="btn btn-primary btn-lg w-100">Pobierz CV</a>
+                            <div class="col-sm-6">
+                                <a href="https://ewakardynal.pl/CV.pdf" class="btn btn-primary btn-lg w-100">Pobierz CV</a>
                             </div>
                         </div> 
                     </div>
@@ -85,7 +85,7 @@
                 </div>
             </div>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="container">
                 <div class="row">
                     <h2 class="section__title">Moje <span class="text-primary-m">umiejętności</span></h2>
@@ -214,7 +214,7 @@
                 </div>
             </div>
         </section>
-        <section class="projects">
+        <section class="projects" id="projects">
             <div class="container">
                 <div class="row">
                     <h2 class="section__title">Przykładowe <span class="text-primary-m">projekty</span></h2>
@@ -223,9 +223,9 @@
                             <div class="card h-100">
                                 <img src="img/page-ek.png" class="card-img-top" alt="ewakardynal.pl">
                                 <div class="card-body">
-                                <h5 class="card-title"><a href="">ewakardynal.pl</a></h5>
+                                <h5 class="card-title"><a href="https://ewakardynal.pl">ewakardynal.pl</a></h5>
                                 <p class="card-text">Strona portfolio. Projekt graficzny strony wykonamy w Figma.</p>
-                                <a href="#" class="btn btn-primary">Zobacz więcej</a>
+                                <a href="https://github.com/ewakardynal/dewka" class="btn btn-primary">Zobacz więcej</a>
                                 </div>
                             </div>
                         </div>
@@ -233,9 +233,9 @@
                             <div class="card h-100">
                                 <img src="img/digital-empire.png" class="card-img-top" alt="digital-empire.eu">
                                 <div class="card-body">
-                                <h5 class="card-title"><a href="">digital-empire.eu</a></h5>
+                                <h5 class="card-title"><a href="https://digital-empire.eu/">digital-empire.eu</a></h5>
                                 <p class="card-text">Projekt zrealizowany w Digital Empire sp. z o.o. - strona stworzona na podstawie PSD</p>
-                                <a href="#" class="btn btn-primary">Zobacz więcej</a>
+                                <a href="https://digital-empire.eu/" class="btn btn-primary">Zobacz więcej</a>
                                 </div>
                             </div>
                         </div>
@@ -243,9 +243,9 @@
                             <div class="card h-100">
                                 <img src="img/clevertax.png" class="card-img-top" alt="clevertax.pl">
                                 <div class="card-body">
-                                <h5 class="card-title"><a href="">clevertax.pl</a></h5>
+                                <h5 class="card-title"><a href="https://clevertax.pl/">clevertax.pl</a></h5>
                                 <p class="card-text">Strona biura rachunkowego stworzona na podstawie darmowego szablonu WordPress</p>
-                                <a href="#" class="btn btn-primary">Zobacz więcej</a>
+                                <a href="https://clevertax.pl/" class="btn btn-primary">Zobacz więcej</a>
                                 </div>
                             </div>
                         </div>
@@ -253,9 +253,9 @@
                             <div class="card h-100">
                                 <img src="img/cahee.png" class="card-img-top" alt="">
                                 <div class="card-body">
-                                <h5 class="card-title"><a href="">Weekly WebDev Challenge 16</a></h5>
+                                <h5 class="card-title"><a href="https://ewakardynal.github.io/weekly-webdev-challenge-2/">Weekly WebDev Challenge 2</a></h5>
                                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quos? Amet, ab!</p>
-                                <a href="#" class="btn btn-primary">Zobacz więcej</a>
+                                <a href="https://github.com/ewakardynal/weekly-webdev-challenge-2" class="btn btn-primary">Zobacz więcej</a>
                                 </div>
                             </div>
                         </div>
@@ -263,9 +263,9 @@
                             <div class="card h-100">
                                 <img src="img/john.png" class="card-img-top" alt="">
                                 <div class="card-body">
-                                <h5 class="card-title"><a href="">Weekly WebDev Challenge 18</a></h5>
+                                <h5 class="card-title"><a href="https://ewakardynal.github.io/weekly-webdev-challenge-18/">Weekly WebDev Challenge 18</a></h5>
                                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quos? Amet, ab!</p>
-                                <a href="#" class="btn btn-primary">Zobacz więcej</a>
+                                <a href="https://github.com/ewakardynal/weekly-webdev-challenge-18" class="btn btn-primary">Zobacz więcej</a>
                                 </div>
                             </div>
                         </div>
@@ -273,7 +273,7 @@
                 </div>
             </div>
         </section>
-        <section class="experience">
+        <section class="experience" id="experience">
             <div class="container">
                 <div class="row">
                     <h2 class="section__title">Moje <span class="text-primary-m">doświadczenie</span></h2>
@@ -314,14 +314,14 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="container">
                 <div class="row">
                     <h2 class="section__title pb-0"><span class="text-primary-m">Kontakt</span></h2>
                     <h3 class="text-center pb-5">Wybierz sposób kontaktu</h3>
-                    <div class="col-md-4"><a href="mailto:kontakt@ewakardynal.pl" class="contact__item"><img src="img/email.png" alt="" width="30px" height="30px" class="me-3"> E-mail</a></div>
-                    <div class="col-md-4"><a href="tel:+48500651977" class="contact__item"><img src="img/phone-call.png" alt="" width="30px" height="30px" class="me-3">500 651 977</a></div>
-                    <div class="col-md-4"><p class="contact__item">kontakt@ewakardynal.pl</p></div>
+                    <div class="col-md-3 text-center"><a href="mailto:kontakt@ewakardynal.pl" class="contact__item"><img src="img/email.png" alt="" width="30px" height="30px" class="me-3"> E-mail</a></div>
+                    <div class="col-md-5 text-center"><p class="contact__item">kontakt@ewakardynal.pl</p></div>
+                    <div class="col-md-4 text-center"><a href="tel:+48500651977" class="contact__item"><img src="img/phone-call.png" alt="" width="30px" height="30px" class="me-3">500 651 977</a></div>
                 </div>
             </div>
         </section>
@@ -329,9 +329,9 @@
     <footer class="page-footer">
         <div class="container-xxl">
             <div class="row align-items-center">
-                <div class="col-md-4"><img src="img/dewka-logo.png" alt="DEWKA"></div>
+                <div class="col-md-4"><a href="#about"><img src="img/dewka-logo.png" alt="DEWKA"></a></div>
                 <div class="col-md-4">© 2022 All rights reserved.</div>
-                <div class="col-md-4">Made with <img src="img/heart.png" alt="love" width="20px" height="20px"> by Ewa Kardynał <a href="" class="ps-2"><img src="img/github-dewka.png" alt="github" width="40px" height="40px"></a></div>
+                <div class="col-md-4">Made with <img src="img/heart.png" alt="love" width="20px" height="20px"> by Ewa Kardynał <a href="https://github.com/ewakardynal" class="ps-2"><img src="img/github-dewka.png" alt="github" width="40px" height="40px"></a></div>
             </div>
         </div>
     </footer>

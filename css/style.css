@@ -51,6 +51,7 @@ section, footer {
 .about {
   background: url(../img/bruce-jastrow-l1H0sF8-v0k-unsplashmin.jpg) no-repeat top center;
   background-size: cover;
+  min-height: 660px;
   height: 100vh;
 }
 .about p {
@@ -163,10 +164,16 @@ section, footer {
 .contact__item {
   border-bottom: 2px solid #fff;
   padding: 0.5rem;
-  margin: 0;
+  margin: 1rem 0;
   color: #fff;
   text-decoration: none;
+  text-align: center;
   line-height: 1;
+  display: inline-block;
+}
+
+.page-footer {
+  padding: 1rem 0;
 }
 
 @media (min-width: 576px) {
