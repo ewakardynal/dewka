@@ -15,6 +15,9 @@ a{
         color: $primary-light;
     }
 }
+.container{
+    max-width: 960px;
+}
 .btn{
     border-radius: 0;
 }
@@ -52,12 +55,13 @@ section, footer{
     background: #000;
 }
 .about__title{
-    font-size: 4.5rem;
+    font-size: 2.48rem;
+    font-weight: bold;
     line-height: 1;
 }
 .about__name{
     color: $primary;
-    font-size: 8.3rem;
+    font-size: 4.3rem;
     font-weight: bold;
     letter-spacing: 6px;
 }
@@ -76,5 +80,107 @@ section, footer{
     .card-title{
         text-align: center;
         text-transform: uppercase;
+        font-size: 1rem;
     }
+}
+.projects{
+    a{
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+}
+.experience__list{
+    list-style: none;
+}
+.experience__list-item{
+    border: 1px solid #fff;
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: 0px 0px 6px 2px rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 6px 2px rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    position: relative;
+    &::before{
+        background-image: url(../img/suitcase.png);
+        background-size: 40px 40px;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -55px;
+        width: 40px;
+        height: 40px;
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        top: 40px;
+        left: -36px;
+        width: 3px;
+        height: 95%;
+        background-color: $primary;
+    }
+    &:last-child{
+        &::before{
+            background-image: url(../img/education.png);
+        }
+        &::after{
+            content: '';
+            position: absolute;
+            top: 35px;
+            left: -40px;
+            width: 3px;
+            height: 95%;
+            background-color: transparent;
+        }
+    }
+}
+.experience__date{
+    color: $primary;
+    font-weight: bold;
+}
+.experience__list-title{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.contact{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/ray-hennessy-Gm6keHhyYxw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contact__item{
+    border-bottom: 2px solid #fff;
+    padding: 0.5rem;
+    margin: 0;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1;
+}
+@media (min-width: 576px) {
+    .about__title{
+        font-size: 4rem;
+    }
+    .about__name{
+        font-size: 7.4rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
 }
